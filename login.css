@@ -1,0 +1,154 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 0.5s;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    opacity: 0;
+    animation: slideIn 1s ease forwards 0.8s, fadeIn 1s ease forwards 1.3s;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    animation: slideIn 1s ease forwards 1.8s, fadeIn 1s ease forwards 2.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 2.8s;
+}
+
+a {
+    color: #4caf50;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+.background-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: rotateShapes 10s linear infinite, fadeIn 1s ease;
+}
+
+.shape {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.circle,
+.square,
+.triangle {
+    animation: floatShape 5s ease-in-out infinite alternate;
+}
+
+.circle {
+    background-color: #ff6384;
+}
+
+.square {
+    background-color: #36a2eb;
+    transform: rotate(45deg);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 17.32px solid #ffce56;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+}
+
+/* Diğer stillendirme kodları buraya gelecek */
+
+@keyframes rotateShapes {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes floatShape {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(2px);
+    }
+}
+.password{
+  font-family:'Roboto';
+}
