@@ -1,0 +1,181 @@
+/* Genel Stil */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #243340;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Üst Banner */
+header {
+    background-color: #F2F2F2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    margin: 0;
+}
+
+.search-bar {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+    border: 1px solid #D92525;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.search-bar input:hover {
+    border-color: #F25050;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kullanici-profili {
+    width: 50px;
+    text-align: right;
+}
+
+.kullanici-profili img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Ana Giriş Bölümü */
+.intro {
+    text-align: center;
+    margin: 20px;
+}
+
+.intro h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Kategori Listeleri */
+.category-lists {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.category-lists h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.category-lists ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category-lists li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.category-lists a {
+    text-decoration: none;
+    color: #243340;
+  transition: color 0.3s ease;
+}
+
+.category-lists a:hover {
+    color: #F25050;
+}
+
+/* Öne Çıkan Videolar */
+.featured-videos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.featured-videos h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.featured-videos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featured-videos li {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.featured-videos a {
+    text-decoration: none;
+    color: #243340;
+    transition: color 0.3s ease;
+}
+
+.featured-videos a:hover {
+    color: #F25050;
+}
+
+.featured-videos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.featured-videos h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.featured-videos p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* About Us Bölümü */
+.about-us {
+    text-align: center;
+    margin: 20px;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background-color: #F2F2F2;
+    color: #243340;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
