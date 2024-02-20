@@ -12,6 +12,8 @@ LEARN Plus is a project developed for the Google Solution Challenge. It aims to 
 - **Customization**: Enables students to sort playlists according to various criteria such as view count, video length, difficulty level, and more.
 - **Save and Share**: Students can save their favorite playlists for later viewing and share them with friends.
 
+![LEARN+ Log-In Screen](/res/images/login_screen_screenshot.jpeg "LEARN+ Log-In Screen")
+
 ## Technology Stack
 
 - **YouTube API**: Utilized to access videos and playlists on YouTube.
@@ -25,17 +27,19 @@ LEARN Plus is a project developed for the Google Solution Challenge. It aims to 
 - **Increased Motivation**: Access to a diverse range of educators and experts can enhance student motivation.
 - **Diverse Learning Styles**: Supports various learning styles by offering videos that cater to visual, auditory, and kinesthetic learners.
 
-## Implementation
-
-- **Research and Development**: Assemble a team for the system's design and development.
-- **Data Collection**: Collect data on educational videos and playlists available on YouTube.
-- **Machine Learning Model**: Develop a machine learning model for personalized student recommendations.
-- **User Interface**: Design and develop a user-friendly interface.
-- **Testing and Evaluation**: Test and evaluate the system with different user groups.
+![LEARN+ Register Screen](/res/images/register_screen_screenshot.jpeg "LEARN+ Register Screen")
 
 ## Conclusion
 
 Developed for the Google Solution Challenge, LEARN Plus presents an innovative approach to simplify and enhance student learning. It aims to provide better educational opportunities and contribute towards educational equity.
+
+## How to Run
+
+The website is accessible through [this link](https://uuu4.github.io/learn-plus/#)
+
+To run locally you may clone this repository.
+
+![LEARN+ Home Screen](/res/images/home_screen_screenshot.jpeg "LEARN+ Home Screen")
 
 ## Notes
 
