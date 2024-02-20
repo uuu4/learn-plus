@@ -1,6 +1,6 @@
 /* Genel Stil */
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Code Pro", sans-serif;
     font-size: 16px;
     color: #243340;
     margin: 0;
@@ -47,9 +47,10 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.kullanici-profili {
-    width: 50px;
+.user-profile {
+    width: 90px;
     text-align: right;
+    font-family: "Kode Mono";
 }
 
 .kullanici-profili img {
@@ -180,5 +181,13 @@ footer {
     color: #243340;
     text-align: center;
     padding: 10px;
-    width: 100%;
+  width: 100%;}
+
+  a{
+    text-decoration: none;
+    color: #243340;
+  transition: color 0.3s ease;
+  }
+a:hover{
+  color:#F25050;
 }
