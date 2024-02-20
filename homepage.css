@@ -12,12 +12,15 @@ body {
 
 /* Üst Banner */
 header {
-    background-color: #F2F2F2;
+    position: sticky;
+    top: 0;
+    background-color: #e6e4e3;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    z-index: 1000; /* Header'ın diğer elementlerin üzerinde kalmasını sağlamak için z-index kullanıyoruz */
 }
 
 .logo {
