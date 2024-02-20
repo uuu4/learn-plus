@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Code Pro", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -151,4 +151,22 @@ a {
 }
 .password{
   font-family:'Roboto';
+}
+.logo{
+  position:absolute;
+  left:50px;
+  top:50px;
+  font-family:"Kode Mono";
+  font-size:50px;
+  z-index:5;
+}
+.logo::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Şeridi metnin altına yerleştirmek için bir miktar negatif değer kullanabilirsiniz */
+  left: 0;
+  width: 100%;
+  height: 10px; /* Şerit yüksekliği */
+  background-color: #f5424e; /* Şerit rengi */
+  z-index: -1; /* Şeridi metnin altına yerleştirmek için z-index kullanabilirsiniz */
 }
